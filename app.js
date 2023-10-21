@@ -18,6 +18,7 @@ app.get('/', (req, res) => {
         <li>Product 1 - $10</li>
         <li>Product 2 - $20</li>
         <li>Product 3 - $30</li>
+        <li>Product 4 - $40</li>
       </ul>
     </body>
     </html>
@@ -25,5 +26,5 @@ app.get('/', (req, res) => {
 });
 
 http.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+  console.log(`Server is  running on port ${port}`);
 });
